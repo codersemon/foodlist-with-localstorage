@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    border: #2ecc71;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+#food_input{
+    width: 50%;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-wrap{
+    margin-bottom: 10px;
+}
+.food_list{
+    margin-top: 10px;
+    list-style-position: inside;
+    list-style-image: url(./img/check.svg);
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-4{
+    width: 25%;
+}
